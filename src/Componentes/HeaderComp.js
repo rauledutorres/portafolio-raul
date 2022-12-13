@@ -8,13 +8,16 @@ export const HeaderComp = () => {
                 <div className="barra">
                     <h1>Raúl Torres</h1>
                 </div>
-                <nav class="menu">
-                
-                    <a href="">INICIO</a>
-                    <a href="">SOBRE MI</a>
-                    <a href="">TRABAJO</a>
-                    <a href="">CONTACTO</a>
-                    
+                <nav>
+                    <div className="menu">
+                        <ul>
+                            <li><a href="#bannerPrincipal">INICIO</a></li>
+                            <li><a href="#sobreMi">SOBRE MI</a></li>
+                            <li><a href="#skills">HABILIDADES</a></li>
+                            <li><a href="#Trabajo">TRABAJO</a></li>
+                            
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </div>
